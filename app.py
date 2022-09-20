@@ -27,6 +27,7 @@ with open('data/Brasil_UF_geojson.json', 'r') as f:
 # ======================= App ======================== #
 locale.setlocale(locale.LC_ALL, '')
 app = Dash(__name__, external_stylesheets=[dbc.themes.ZEPHYR])
+server = app.server
 load_figure_template('zephyr')
 
 # =================== Layout ========================= #
