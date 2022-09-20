@@ -2,6 +2,5 @@ dash==2.6.1
 dash-bootstrap-components==1.2.1
 dash-bootstrap-templates==1.0.6
 dash-mantine-components==0.10.2
-numpy==1.23.3
 pandas==1.4.2
 plotly==5.10.0
